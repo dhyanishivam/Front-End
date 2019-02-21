@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>Gmail Registration</title>
+		<style>
+			#select1 {
+					width: 103px;
+					border-radius:5px;
+					border: none;
+			}
+			#select2 {
+					width: 350px;
+					border-radius:5px;
+					border: none;
+			}
+			#header{
+					background-color:#ffffff;
+					padding:30px;
+					color:rgb(80, 80, 80);
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+			#form{
+				background-color:#e6e6e6;
+				padding:50px;
+				position: absolute;
+				left: 900px;
+				top: 130px;
+				border-radius: 25px;
+				 }
+			#submit{
+					color: white;
+					background-color: #498af2;
+					border: none;
+					margin-left:290px;
+					text-align: center;
+					padding: 5px 10px;
+				}
+			#fix{
+				position: absolute;
+				left: 0px;
+				top: 130px;
+				width:900px;
+				}
+			#round0{
+				border-radius:5px;
+				border: none;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="header" style=" width: 100%; height:70px;">
+			<h1 align="center" style="color:#4d4d4d;">Create your Google Account</h1>
+		</div>
+		<div id="form" >
+			<form>
+				Name: <br> 
+				<input type="text" name="firstname" placeholder="First" id="round0"> <input type="text" name="lastname" placeholder="Last"  id="round0"> <br> <br> 
+				Choose your username: <br> 
+				<input type="text" name="username" placeholder="@gmail.com" size="45" id="round0"><br> <br> 
+				Create your Password: <br>
+				<input type="password" name="password" size="45" id="round0"><br> <br> 
+				Confirm your Password: <br>
+				<input type="password" name="password" size="45" id="round0"><br> <br> 
+				Birthday: <br> 
+				<select id="select1">
+					<option value="" disabled selected>Month</option>
+					<option value="january">January</option>
+					<option value="february">February</option>
+					<option value="march">March</option>
+					<option value="april">April</option>
+					<option value="may">May</option>
+					<option value="june">June</option>
+					<option value="july">July</option>
+					<option value="august">August</option>
+					<option value="september">September</option>
+					<option value="october">October</option>
+					<option value="november">November</option>
+					<option value="december">December</option>
+				</select>
+				<input type="number" name="day" min="1" max="31" size="45" placeholder="Day" id="round0">
+				<input type="number" name="year" maxlength="4" minlength="4" placeholder="Year" id="round0"><br> <br> 
+				Gender: <br>
+				<select id="select2">
+					<option value="" disabled selected>I am...</option>
+					<option value="male">Male</option>
+					<option value="female">female</option>
+					<option value="others">Others</option>
+				</select><br> <br> 
+				Mobile Phone: <br>
+				<input type="number" name="mobile" id="select2" id="round0"><br> <br> 
+				Your current Email Address: <br> 
+				<input type="text" name="currentusername" size="45" id="round0"><br> <br> 
+				<input type ="submit" value="submit" id="submit" id="round0">
+			</form>
+			</div>
+			<div id="fix" style=" text-align:center;">
+				<h2 align="center" style="color:#4d4d4d;">One account is all you need</h2>
+				<h3 align="center" style="color:#4d4d4d;">One free account gets you into everything Google</h3>
+				<img src="google.png" style="height:25px; width:25px;">
+				<img src="mail.png" style="height:25px; width:25px; margin-left:10px;">
+				<img src="map.png" style="height:25px; width:25px; margin-left:10px;">
+				<img src="youtube.png" style="height:25px; width:25px; margin-left:10px;">
+				<img src="drive.png" style="height:25px; width:25px; margin-left:10px;">
+				<img src="photos.png" style="height:25px; width:25px; margin-left:10px;">
+				<img src="play.png" style="height:25px; width:25px; margin-left:10px;">
+				<img src="chrome.png" style="height:25px; width:25px; margin-left:10px;">
+				<h2 align="center" style="margin-top:60px; color:#4d4d4d;">Take it all with you</h2>
+				<h3 align="center" style="color:#4d4d4d;">Switch between devices, and pick up wherever you left off</h3>
+				<img src="comp.png" style="height:250px; width:300px;">
+			</div>
+	</body>
+</html>		
